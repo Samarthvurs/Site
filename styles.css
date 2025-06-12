@@ -286,3 +286,23 @@ a4{
 .custom-footer {
   margin-top: 7rem;
 }
+
+.social-buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    opacity: 1;
+    visibility: visible;
+}
+
+.overview {
+    opacity: 1;
+    visibility: visible;
+}
+
+[data-aos] {
+    opacity: 1 !important;
+    visibility: visible !important;
+}
