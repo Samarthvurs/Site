@@ -127,8 +127,9 @@ a4{
 }
 
 .whoami {
-  max-width: 1300px;
-  margin: 0 auto 0 8rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 @keyframes weightGrow {
@@ -358,10 +359,6 @@ a4{
     padding: 0 1rem;
   }
 
-  .whoami {
-    margin: 1rem auto 3rem auto;
-  }
-
   .projects-cards {
     gap: 1rem;
   }
@@ -389,22 +386,23 @@ a4{
   }
 
   .footer-links-horizontal {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    padding: 1rem;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
   }
 
   .footer-links-horizontal a {
     font-size: 1.2rem;
-    padding: 0.5rem;
   }
 
   .custom-footer {
-    padding: 1rem;
     width: 100%;
-    box-sizing: border-box;
+    margin: auto;
+  }
+
+  a2 {
+    white-space: normal;
   }
 }
 
@@ -432,6 +430,12 @@ a4{
 
   .project-card {
     width: calc(50% - 2rem);
+  }
+
+  .footer-links-horizontal {
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px; /* Adjust gap for tablet view */
   }
 }
 
