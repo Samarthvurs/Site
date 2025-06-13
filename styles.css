@@ -389,12 +389,22 @@ a4{
   }
 
   .footer-links-horizontal {
-    flex-direction: row;
-    gap: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
   }
 
-  a2 {
-    white-space: normal;
+  .footer-links-horizontal a {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+  }
+
+  .custom-footer {
+    padding: 1rem;
+    width: 100%;
+    box-sizing: border-box;
   }
 }
 
