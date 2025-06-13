@@ -246,13 +246,11 @@ a4{
   object-fit: cover;
   border-radius: 30px;
   margin-bottom: 1.5rem;
-  transition: opacity 0.3s ease;
+  display: block;
+  opacity: 1;
 }
 
-.project-card img[loading] {
-  opacity: 0;
-}
-
+.project-card img[loading],
 .project-card img:not([loading]) {
   opacity: 1;
 }
